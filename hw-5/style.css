@@ -1,0 +1,71 @@
+body {
+  background-color: burlywood;
+}
+
+.menu {
+  list-style: none;
+  position: relative;
+}
+.menu::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.menu li {
+  width: 100px;
+  float: left;
+}
+
+.menu a {
+  display: block;
+  height: 30px;
+  font-size: 20px;
+  font-style: italic;
+  border: 2px solid rgb(59, 19, 235);
+  text-transform: inherit;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(59, 19, 235);
+  margin: 10px;
+}
+
+.second {
+  position: relative;
+}
+.navigation li {
+  list-style: none;
+}
+.navigation {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  padding: 0;
+  display: none;
+}
+li:hover .navigation {
+  display: block;
+}
+
+.fifth {
+  position: relative;
+}
+.fifth:hover .horizontal {
+  display: block;
+}
+.second > a,
+.fifth > a {
+  color: white;
+}
+.horizontal {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  padding: 0;
+  width: 1250px;
+  display: none;
+}
+
+.menu a:hover {
+  color: black;
+}

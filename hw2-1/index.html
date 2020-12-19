@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>HW-2</title>
+  </head>
+  <body>
+    <div class="content">
+      <form action="">
+        <h1 class="h1">Анкета кандидата</h1>
+        <table>
+          <tr>
+            <td>
+              <p><b>ФИО</b></p>
+            </td>
+            <td><input type="text" size="40" /></td>
+          </tr>
+          <tr>
+            <td><p>Пол</p></td>
+            <td>
+              <input type="radio" name="sex" value="Ж" />Ж
+              <input type="radio" name="sex" value="М" />М
+            </td>
+          </tr>
+          <tr>
+            <td><p>Дата рождения</p></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><p>Полный возраст</p></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><p>Телефон</p></td>
+            <td><input type="tel" /></td>
+          </tr>
+          <tr>
+            <td><p>Email</p></td>
+            <td><input type="email" /></td>
+          </tr>
+        </table>
+        <p><b>Образование</b></p>
+        <select name="education" id="">
+          <option value="Среднее">Среднее</option>
+          <option value="Неоконченное высшее">Неоконченное высшее</option>
+          <option value="Высшее">Высшее</option>
+        </select>
+
+        <p>Заполните таблицу</p>
+        <table width="800" border="0">
+          <tr>
+            <td width="30">Год поступления\окончания</td>
+            <td>Факультет</td>
+            <td>Специальность</td>
+          </tr>
+          <tr>
+            <td><input type="text" size="20" /></td>
+            <td><input type="text" size="40" /></td>
+            <td><input type="text" size="40" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" /></td>
+            <td><input type="text" size="40" /></td>
+            <td><input type="text" size="40" n /></td>
+          </tr>
+        </table>
+
+        <br />
+        <p>Дополнительное образование (курсы, семинары, тренинги)</p>
+        <table width="800" border="0">
+          <tr>
+            <td>Время прохождения</td>
+            <td>Наименование</td>
+            <td>Название организации</td>
+          </tr>
+          <tr>
+            <td><input type="text" size="20" /></td>
+            <td><input type="text" size="40" /></td>
+            <td><input type="text" size="40" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" /></td>
+            <td><input type="text" size="40" /></td>
+            <td><input type="text" size="40" /></td>
+          </tr>
+        </table>
+        <p><b>Опыт работы</b></p>
+        <table width="800" border="0">
+          <tr>
+            <td>Время работы</td>
+            <td>Название организации</td>
+            <td>Должность</td>
+          </tr>
+          <tr>
+            <td><input type="text" size="20" /></td>
+            <td><input type="text" size="40" /></td>
+            <td><input type="text" size="40" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" /></td>
+            <td><input type="text" size="40" /></td>
+            <td><input type="text" size="40" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" /></td>
+            <td><input type="text" size="40" /></td>
+            <td><input type="text" size="40" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" /></td>
+            <td><input type="text" size="40" /></td>
+            <td><input type="text" size="40" /></td>
+          </tr>
+        </table>
+        <br />
+        <p><b>Добавьте Ваше Резюме</b></p>
+        <input type="file" />
+        <br />
+        <footer class="footer">
+          <button class="btn btn-secondary" type="submit">Sign in</button>
+        </footer>
+      </form>
+    </div>
+  </body>
+</html>
