@@ -1,0 +1,22 @@
+#seventh {
+    font-size: 35px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+
+}
+.black-bg{
+    color: white;
+    background-color: black;
+    font-size:27px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.b-r{
+    font-size: 25px;
+    border-right: 3px red dotted;
+}
+span{
+    color: red;
+}

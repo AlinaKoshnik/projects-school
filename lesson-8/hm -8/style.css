@@ -1,0 +1,43 @@
+.content {
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.header{
+    height: 60px;
+}
+.header::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.logo {
+    float: left;
+    display: inline-block;
+    margin: 5px;
+}
+.logo h1{
+    margin: 10px;
+}
+.logo::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu li i {
+    width: 100px;
+    float: left;
+}
+ .menu a{
+    list-style: none;
+    text-decoration: none;
+    text-transform: inherit;
+ }
+ .menu-li{
+     float: left;
+     padding-right: 20px;
+ }
+.icon-search {
+}
+.icon-basket {
+}

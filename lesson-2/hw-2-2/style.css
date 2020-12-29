@@ -1,0 +1,8 @@
+p :first-child{
+    font-size: 2px;
+    background-color: darkkhaki;
+}
+p{
+    margin: 0;
+    padding: 0;
+   }

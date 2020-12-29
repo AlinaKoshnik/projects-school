@@ -1,0 +1,48 @@
+.header {
+    width: 0 auto;
+    text-align: center;
+}
+.squasharena {
+    font-size: 40px;
+    color: blue;
+    list-style: none;
+    text-decoration: none;
+}
+.content {
+    
+}
+.content
+}
+.column {
+    float: left;
+}
+.column::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-md-3 {
+    float: left;
+    width: 25%;
+}
+.col-md-6 {
+    float: left;
+    width: 50%;
+}
+.form {
+    float: left;
+}
+.home {
+}
+.main-text {
+}
+.footer {
+    float: left;
+    background-color: #ccc;
+    text-align: center;
+    color: #ffffff;
+}
+.form-1{
+    float: left;
+}

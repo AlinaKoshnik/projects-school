@@ -1,0 +1,46 @@
+body{
+    background-color: wheat;
+}
+.menu{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+}
+.menu li{
+    width: 200px;
+    float: left;
+    margin-left: -1px;
+    clip-path: polygon(72% 0%, 100% 100%, 0 100%, 0 0);
+}
+
+.menu a {
+    display: block;
+    height:40px;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: inherit;
+    border: 1px solid turquoise;
+    border-radius: 10px 7px 0 0;
+    text-decoration: none;
+    background-color: turquoise;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(2, 172, 129);
+}
+
+.menu a:hover{
+    color: rgb(2, 172, 129);
+    background-color: white;
+    border: 1px solid white;
+}
+
+.box{
+    background-color: white;
+    max-width: 1100px;
+    height: 500px;
+}
+
+.icon{
+    padding-right: 7px;
+    
+}
