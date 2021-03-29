@@ -65,16 +65,16 @@
 // ask ("Вы согласны?" , showSuccess, showCancel);
 
 
-function sum(a,b) {
-    return a + b
-}
-const sum1 = (a,b) => {
-    let c = a+b;
-    return c;
-};
+// function sum(a,b) {
+//     return a + b
+// }
+// const sum1 = (a,b) => {
+//     let c = a+b;
+//     return c;
+// };
 
-console.log(sum(3,5))
-console.log(sum1(5,5))
+// console.log(sum(3,5))
+// console.log(sum1(5,5))
 
 
 // let firtstName = "Alina";
@@ -82,14 +82,52 @@ console.log(sum1(5,5))
 // let age = 18;
 // let tel = 093444444;
 
-// let user = {
-//     name: "Alina";
-//     name: "Mikosha";
-//     age: "18";
-//     tel: "093444444";
-// }; 
+let user = {
+    name: "Alina",
+    surname: "Mikosha",
+    age: "18",
+    tel: "093444444",
+    skills: {
+        html:"5",
+        css:"10",
+        js:"9",
+    }
+};
 
-// console. log(user.name);
-// console. log(user["age"]);
+for(let key in user) {
+    const value = user[key];
+    if(typeof value === 'object') {
+        for(let valueKey in value) {
+            console.log(valueKey + " = " + value [valueKey])    
+        }
+    } else {
+        console.log( key + " = " + value)
+    }
+}
 
 
+// let counter = 100;
+// const fn3 = () => {
+//     // for(let key in user) {
+//     //     const value = user[key];
+//     //     if(typeof value === 'object') {
+//     counter--;
+//     if(counter >= 0) {
+//         console.log(counter);
+//         fn3();
+//     }
+// }
+
+// fn3()
+
+// let cities = ["Kiev", "Lviv", "Odessa"];
+
+// console.log(cities[1])
+
+
+// let num = 1;
+
+// while( num <= 10){
+//     console.log(num);
+//     num++;
+// }
